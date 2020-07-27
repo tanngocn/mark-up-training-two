@@ -1,0 +1,11 @@
+@import url("./base.css");
+@import url("./homePage.css"); /* Using a url */
+@import url("./header.css"); /* Using a url */
+@import url("./product.css"); /* Using a url */
+@import url("./sprintBlock.css"); /* Using a url */
+@import url("./zoneAppHr.css"); /* Using a url */
+@import url("./collections.css"); /* Using a url */
+@import url("./footer.css"); /* Using a url */
+@import url("./responsive/responsiveMobile.css"); /* Using a url */
+@import url("./responsive/responsiveTablet.css"); /* Using a url */
+@import url("./responsive/responsivePc.css"); /* Using a url */

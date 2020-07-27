@@ -1,0 +1,224 @@
+header.header {
+  border-bottom: .01rem solid #8080804a;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+}
+header.header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2245542;
+  box-shadow: 0 0.4rem 0.7rem #6b666640;
+  background-color: white;
+}
+nav.header-nav {
+  display: flex;
+  padding: .4rem;
+  justify-content: flex-end;
+}
+
+
+
+a.nav-logo {
+  display: inline-block;
+  flex: 1;
+}
+a.nav-logo .svg_logo_haravan{
+  fill: var(--color-primary);
+  height: 3.6rem;
+  width: 15rem;
+}
+
+.nav-menu  {
+  display: flex;
+  justify-content: space-between;
+  flex: 6;
+  align-items: center;
+  background-color: var(--color-white);
+}
+.nav-menu .nav-logo.nav-logo-slidebar{
+  display:none;
+}
+
+
+
+.nav-list__item {
+  margin: 0 2.5rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  display: block;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .4s;
+  color: var(--color-black);
+  position: relative;
+}
+
+.drop-block {
+  position: absolute;
+  width: 25rem;
+  height: auto;
+  top: 3.5rem;
+  left: 0;
+  background-color: var(--color-white);
+  border-radius: .3rem;
+  padding: 1rem;
+  transition: .4s;
+  transform: rotateX(90deg);
+  opacity: 0;
+  z-index: 2;
+  visibility: hidden;
+  perspective: 100rem;
+  transform-origin: 50% 0%;
+  filter: drop-shadow( 0 0.2rem 0.7rem);
+}
+
+.drop-block::before {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--color-white);
+  top: -1rem;
+  left: 2rem;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+.nav-list__item i {
+  transition: .4s;
+  margin-left: .5rem;
+}
+
+.nav-list__item:hover {
+  color: var(--color-third);
+}
+
+li.nav-list__item:hover > .drop-block {
+  opacity: 1;
+  visibility: visible;
+  transform: rotateX(0);
+}
+.nav-list__item:hover > i {
+ transform: rotate(180deg);
+}
+
+ul.nav-list, .nav-list-button {
+  display: flex;
+  list-style: none;
+  margin-left: 4rem;
+  margin-bottom: 0;
+}
+
+.nav-logo.nav-logo-slidebar{
+  display:none;
+}
+.button, .button:link {
+  display: inline-block;
+  padding: .5rem 1rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  border: .05rem solid var(--color-secondary);
+  border-radius: .2rem;
+  transition: .2s;
+}
+
+.nav-list-button li {
+  margin: 0 .3rem;
+  display: flex;
+  align-items: center;
+}
+.nav-list-button a.button.button--flip.button--flip2, .nav-list-button a.button.button--flip.button--flip1 {
+  padding: 1rem 1.5rem;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  border-radius: 0;
+}
+/*nav menu*/
+.container-fluid.container-modify {
+  padding: 0;
+}
+.header.active {
+  height: 0;
+  border: none;
+}
+
+/* toggle block   */
+.drop-toogle-block {
+  width: 4.4rem;
+  height: 3.6rem;
+  background-color: var(--color-white);
+  padding: 0.8rem 1rem;
+  transition: all.2s;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+
+.drop-toogle-block span.toggle-block {
+  width: 2.4rem;
+  height: 0.2rem;
+  background-color: var(--color-black);
+  position: relative;
+  margin: 0;
+  transition: all 0.4s;
+}
+.drop-toogle-block span.toggle-block::before,
+.drop-toogle-block span.toggle-block::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0.2rem;
+  background-color: var(--color-black);
+  transition: all 0.4s;
+}
+.drop-toogle-block span.toggle-block::before {
+  top: 0.6rem;
+}
+.drop-toogle-block span.toggle-block::after {
+  top: -0.6rem;
+}
+/* end toggle block   */
+/* active button toggle */
+span.toggle-block.active {
+  background-color: transparent;
+}
+span.toggle-block.active::before {
+  top: 0rem;
+  transform: rotate(45deg);
+}
+span.toggle-block.active::after {
+  top: 0rem;
+  transform: rotate(-45deg);
+}
+.nav-logo.hidden-fixed {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+span.toggle-block.active {
+  background-color: transparent;
+}
+span.toggle-block.active::before {
+  top: 0rem;
+  transform: rotate(45deg);
+}
+span.toggle-block.active::after {
+  top: 0rem;
+  transform: rotate(-45deg);
+}
+.nav-logo.hidden-fixed {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.nav-logo.nav-logo-slidebar {
+  display: inline-block;
+  max-height: 5rem;
+  width: 100%;
+  padding: 1rem;
+}

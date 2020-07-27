@@ -1,0 +1,169 @@
+* {
+}
+
+
+@media (min-width: 1199px) {
+  .hrApp__left.col-md-6.col-lg-6.order-text .subzone {
+    font-size: 2.1rem;
+  }
+  .drop-block {
+    padding: 0;
+  }
+  li.nav-list__item:nth-last-of-type(1) .drop-block {
+    width: 49rem;
+    height: auto;
+    left: -26.5rem;
+    top: 5.5rem;
+    padding: 1.2rem;
+  }
+
+  li.nav-list__item:nth-last-of-type(1) .drop-block::before {
+    left: 36rem;
+  }
+
+  li.drop-block-list__item a {
+    color: var(--color-black-2);
+    padding: 0 1rem;
+    font-size: 1.3rem;
+    display: inline-block;
+  }
+
+  li.drop-block-list__item:nth-of-type(1) {
+    border-bottom: 0.1rem solid var(--color-gray);
+    font-weight: bold;
+  }
+
+  li.drop-block-list__item {
+    padding: 1rem 0;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+  }
+  li.drop-block-list__item:hover {
+    background-color: #f4f6f8;
+  }
+  li.drop-block-list__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    height: 100%;
+    width: 0.4rem;
+    background-color: #2979ff;
+    opacity: 0;
+    transition: 0.2s;
+  }
+  li.drop-block-list__item:hover::before {
+    opacity: 1;
+  }
+  ul.drop-block-list {
+    list-style: none;
+    padding: 1rem;
+  }
+
+  h2.title {
+    font-size: 2.8rem;
+  }
+  section.zone-appHr .hrApp__left .hrApp__title.hidden-xs h2 span {
+    font-size: 2.8rem;
+  }
+
+  .sub-menu {padding: 0;}
+  
+  li.nav-list__item:nth-last-of-type(1) .drop-block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li.nav-list__item:nth-last-of-type(1) .drop-block .drop-block-list1 {
+    list-style: none;
+  }
+
+  li.nav-list__item:nth-last-of-type(1)
+    .drop-block
+    .drop-block-list1
+    .drop-block-list1__item {
+    padding: 0.8rem;
+  }
+
+  li.nav-list__item:nth-last-of-type(1)
+    .drop-block
+    .drop-block-list1
+    .drop-block-list1__item
+    a {
+    font-size: 1.3rem;
+    color: var(--color-black-2);
+  }
+
+  li.nav-list__item:nth-last-of-type(1)
+    .drop-block
+    .drop-block-list1
+    .drop-block-list1__item:hover
+    a {
+    color: var(--color-firth);
+  }
+
+  section.zone-appHr .hrApp__left .hrApp__title.hidden-xs h2 {
+    font-size: 2.8rem;
+    width: 70%;
+  }
+
+  input.form-control.style {
+    border-radius: 0.2rem;
+  }
+
+  a.button.button--flip.button--flip1.button--tryFree {
+    font-size: 1.8rem;
+    width: 25%;
+    padding: 1.2rem 0;
+  }
+
+  .input-group.middle {
+    width: 70%;
+  }
+
+  .sprint-form .container .col-lg-12 h2.sprint-form__title {
+    font-size: 2.7rem;
+  }
+
+  .sprint-form .container .col-lg-12 h2.sprint-form__title span {
+    display: inline-block;
+  }
+
+  ul.list-appStore {
+    display: block;
+  }
+
+  footer.footer {
+    padding: 4rem 0;
+  }
+
+  footer.footer .container .row.row-modify .colmn-lg-20 {
+    width: 20%;
+    order: 1;
+    display: block;
+  }
+
+  footer.footer .container .row.row-modify .colmn-lg-20.social {
+    order: 1;
+  }
+
+  footer.footer .container .row.row-modify {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  ul.list-unstyled li + li {
+    position: relative;
+    margin-left: 1rem;
+  }
+
+  ul.list-unstyled li + li::after {
+    content: "";
+    position: absolute;
+    top: 0.2rem;
+    left: -1.2rem;
+    width: 0.1rem;
+    height: 2rem;
+    background-color: gray;
+  }
+}

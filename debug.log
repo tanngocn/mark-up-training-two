@@ -1,0 +1,14 @@
+[0717/132713.922:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0717/172148.287:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.290:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.290:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.290:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.291:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.291:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.291:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.292:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.292:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.292:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.292:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.292:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0717/172148.292:ERROR:exception_snapshot_win.cc(98)] thread ID 11844 not found in process

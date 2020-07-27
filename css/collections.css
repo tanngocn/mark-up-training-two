@@ -1,0 +1,96 @@
+.collection-index {
+    padding: 9rem 0px;
+    margin-top: 5rem;
+    border-top: .1rem solid #e5e5e5;
+    border-bottom: .1rem solid #e5e5e5;
+    background: #f9fafa;
+    color: var(--color-gray);
+}
+.collection-heading h2 {
+    font-size: 3rem;
+}
+
+.collection-heading {
+    color: var(--color-black);
+    margin-bottom: 3rem;
+}
+
+.collection-heading p.note_title {
+    font-size: 1.5rem;
+    margin: 1rem 0 1.5rem;
+}
+
+.list-collection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.collection-item {
+    border-radius: 0.3rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.collection-item:hover{
+    transform: translateY(-2rem);
+}
+
+a.colletion-block-link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: var(--color-white);
+    padding: 0;
+}
+
+a.colletion-block-link img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.collection-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.collection-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-title h3 {
+    font-size: 2.4rem;
+    color: var(--color-white);
+    padding: 0 10px;
+    font-weight: 600;
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+p.web-example {
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--color-black);
+    margin: 1rem 0 0;
+    font-weight: 600;
+}
+p.web-example a {
+    text-decoration: none;
+    color: var(--color-firth);
+}
+p.web-example:hover a{
+    text-decoration:underline
+}

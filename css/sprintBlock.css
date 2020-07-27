@@ -1,0 +1,33 @@
+h2.sprint-form__title {
+    text-align: center;
+    font-size: 3rem;
+    color: #01579b;
+    margin: 0 0 3rem;
+}
+
+section.sprint-form {
+    text-align: center;
+    padding: 6rem 0 8rem;
+    background-color: #eff8ff;
+    border-top: 1px solid #d8eeff;
+    margin-top: 20px;
+}
+
+.input-group.middle {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 78%;
+}
+
+input.form-control.style {
+    padding: 0 2.5rem;
+    height: 5.2rem;
+    font-size: 1.6rem;
+    width: 54rem;
+    margin-right: 1rem;
+}
+a.button.button--flip.button--flip1.button--tryFree {
+    margin: 0;
+    font-size: 2rem;
+}
